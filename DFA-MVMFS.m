@@ -1,4 +1,4 @@
-function [Lh,hq,hp,tq] = DFAMFS(signal1,signal2,scale,m,q)
+function [Lh,hq,hp,tq] = DFA_MVMFS(signal1,signal2,scale,m,q)
 % signal:       input signal
 % scale:        vector of scales
 % q:            q-order that weights the local variations 
